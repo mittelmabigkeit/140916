@@ -30,3 +30,14 @@ for(var i=0;i<78;i++) {
 x=x+y;
 }
 console.log(x);
+
+var p,z,u;
+p=0;
+z=7;
+u=3;
+while (p<78) {
+	z=z+u;
+	p++;
+}
+console.log(z);
+
