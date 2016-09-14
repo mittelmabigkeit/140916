@@ -41,3 +41,13 @@ while (p<78) {
 }
 console.log(z);
 
+var v,n,m;
+v=0;
+n=7;
+m=3;
+do {
+n=n+m;
+v++;
+}
+while (v<78)
+console.log(n)
