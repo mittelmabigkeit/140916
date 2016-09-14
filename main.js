@@ -22,3 +22,11 @@ switch (b>0) {
 	break;
 }
 console.log(c);
+
+var x,y;
+x=7;
+y=3;
+for(var i=0;i<78;i++) {
+x=x+y;
+}
+console.log(x);
