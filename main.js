@@ -12,11 +12,11 @@ else {
 console.log(s);
 
 var b,c;
-b=1;
-switch (b) {
-	case 1:c=1;   
+b=0;
+switch (b>0) {
+	case true:c=1;   
 	break;
-	case -1:c=2;
+	case false:c=2;
 	break;
 	default:c=3;
 	break;
